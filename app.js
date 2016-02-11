@@ -9,11 +9,18 @@ app.set('view engine', 'handlebars');
 app.use('/public', express.static(__dirname + "/public"));
 
 app.get('/', function(req, res){
-  res.render('index');
+  res.render('index', {
+       title : 'Ivan Baena',
+       layout : 'main'
+});
 });
 
+
 app.get('/click', function(req, res){
-  res.render('about');
+  res.render('about', {
+       title : 'Rock, Paper, Scissors',
+       layout : 'rps'
+});
 });
 
 app.use('/public', express.static('public'));
