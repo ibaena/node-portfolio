@@ -69,5 +69,5 @@ app.post('/contact', function(req, res){
 
 app.use('/public', express.static('public'));
 
-var port = Number(process.env.PORT || 3000);
+var port = Number(process.env.PORT || 8000);
 app.listen(port);
