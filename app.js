@@ -17,12 +17,18 @@ app.get('/', function(req, res){
 
 
 app.get('/click', function(req, res){
-  res.render('about', {
+  res.render('rps', {
        title : 'Rock, Paper, Scissors',
        layout : 'rps'
 });
 });
 
+app.get('/contact', function(req, res){
+  res.render('contact', {
+       title : 'contact',
+       layout : 'main'
+});
+});
 app.use('/public', express.static('public'));
 
 var port = Number(process.env.PORT || 3000);
