@@ -12,7 +12,7 @@ app.get('/', function(req, res){
   res.render('index');
 });
 
-app.get('/about', function(req, res){
+app.get('/click', function(req, res){
   res.render('about');
 });
 

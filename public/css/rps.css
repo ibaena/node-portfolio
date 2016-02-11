@@ -1,0 +1,62 @@
+body{
+background-image: url('../img/background.jpg');
+background-size: cover;
+  
+}
+
+
+/*Buttons*/
+
+#randBtn{
+  display: block;
+}
+
+span {
+
+  text-align: center;
+}
+
+#scoreboard{
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#graphic-computer{
+text-align: right;
+}
+
+#graphic{
+
+ height: 300px
+}
+
+
+.user-image{
+  width: 125px;
+  height: 150px;
+
+   -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    -o-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    transform: rotate(315deg);
+}
+
+.closed-hands{
+  width: 125px;
+  height: 150px;
+
+ 
+}
+
+.game{
+  margin-top: 20px;
+}
+
+#start{
+  display: block;
+}
+
+h5{
+  font-weight: bold;
+}

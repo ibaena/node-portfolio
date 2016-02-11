@@ -1,0 +1,49 @@
+<nav class="grey">
+  <div class="nav-wrapper">
+    <a href="/" class="brand">Ivan Baena</a>
+    <ul id="nav-mobile" class="right">
+      <li><a href="/">Home</a></li>
+      <li><a href="/click">Click Game</a></li>
+      <li><a href="/paintnight">Paint Night</a></li>
+      <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="row" id="scoreboard">
+   <table class="bordered centered">
+     <thead>
+       <tr>
+         <th><h5>You</h5></th>
+         <th><h5>CPU</h5></th>
+         <th><h5>Ties</h5></th>
+         <th><h5>Rounds</h5></th>
+       </tr>
+     </thead>
+     <tbody>
+       <tr>
+         <td><h4 id="myScore">0</h4></td>
+         <td><h4 id="compScore">0</h4></td>
+         <td><h4 id="tieScore">0</h4></td>
+         <td><h4 id="rounds">0</h4></td>
+       </tr>
+     </tbody>
+   </table>
+  </div>
+  <div class="row" id="graphic">
+    <div class="col s4 left-align" id="graphic-user"></div>
+    <div class="col s4 offset-s4 right-align" id="graphic-computer"></div>
+  </div>
+  <div class="row" id="user-selection">
+    <div class="col s4 center-align">
+      <a class="waves-effect waves-light btn game black" value="rock">Rock</a>
+    </div>
+    <div class="col s4 center-align">
+      <a class="waves-effect waves-light btn game white black-text" value="paper">Paper</a>
+   </div>
+   <div class="col s4 center-align">
+      <a class="waves-effect waves-light btn game grey " value="scissors">Scissors</a>
+   </div>
+  </div>
+</div>
