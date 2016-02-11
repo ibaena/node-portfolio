@@ -1,0 +1,35 @@
+body {
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+ }
+
+ main {
+   flex: 1 0 auto;
+ }
+
+footer {
+  color: white;
+}
+ul a:hover  {
+  background-color: white;
+  color: black;
+}
+
+nav .brand:hover {
+  background-color: white;
+  color: black;
+}
+
+.parallax-container img {
+  max-width:100%;
+}
+
+#title{
+  font-family: 'Allura', cursive;
+}
+
+ul li {
+    display: inline;
+    text-align: center;
+}
