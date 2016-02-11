@@ -28,6 +28,19 @@ ul a:hover  {
   display: inline;
 }
 
+#submit{
+    margin-top: 20px;
+}
+
+#page-border {
+    background: #F5F5F5;
+    margin: 20px;
+}
+
+.form{
+  margin-top: 50px;
+}
+
 ul li {
     display: inline;
     text-align: center;
@@ -46,4 +59,5 @@ ul li a {
   color: black;
   margin-left: 10px;
   margin-right: 10px;
+  font-weight: 100;
 }

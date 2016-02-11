@@ -25,10 +25,19 @@ app.get('/click', function(req, res){
 
 app.get('/contact', function(req, res){
   res.render('contact', {
-       title : 'contact',
+       title : 'Contact',
        layout : 'main'
 });
 });
+
+app.get('/about', function(req, res){
+  res.render('about', {
+       title : 'About',
+       layout : 'main'
+});
+});
+
+
 app.use('/public', express.static('public'));
 
 var port = Number(process.env.PORT || 3000);
