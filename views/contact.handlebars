@@ -5,13 +5,12 @@
     </div>
   </div>
   <div class="row">
-    <form class="col s8 offset-s2">
-      <div class="form">
-      <input id="icon_prefix" type="text" class="validate">
+    <form class="col s8 offset-s2" method="post" action="/contact">
+      <input id="icon_prefix" type="text" name="username">
       <label for="icon_prefix">First Name</label>
-      <input id="icon_prefix" type="text" class="validate">
+      <input id="icon_prefix" type="text" name="email">
       <label for="icon_prefix">Email</label>
-      <textarea id="textarea1" class="materialize-textarea"></textarea>
+      <textarea id="textarea1" class="materialize-textarea" name="summary"></textarea>
       <label for="textarea1">Message</label>
       <div>
         <button class="btn black waves-effect" type="submit" id="submit">Submit!</button>
