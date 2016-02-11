@@ -33,3 +33,14 @@ ul li {
     display: inline;
     text-align: center;
 }
+
+.social{
+  height: 40px;
+  width: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul li a {
+  font-weight: bold;
+}
