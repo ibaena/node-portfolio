@@ -36,6 +36,9 @@ ul a:hover  {
     background: #F5F5F5;
     margin: 20px;
 }
+#contact-title{
+  font-weight: 200;
+}
 
 .form{
   margin-top: 50px;
