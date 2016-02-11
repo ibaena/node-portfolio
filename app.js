@@ -37,6 +37,13 @@ app.get('/about', function(req, res){
 });
 });
 
+app.get('/blog', function(req, res){
+  res.render('blogger', {
+       title : 'Dishing and Swishing',
+       layout : 'blog'
+});
+});
+
 
 app.use('/public', express.static('public'));
 

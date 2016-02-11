@@ -1,0 +1,22 @@
+ul li {
+    display: inline;
+    text-align: center;
+}
+
+.row #title  {
+    height: 40px;
+}
+
+#logo {
+    height: 60px;
+    width:auto;
+}
+
+#subtitle {
+    font-weight: 200;
+    display: inline
+}
+
+.nav-bar {
+    height: 30px;
+}
